@@ -8,9 +8,9 @@ def line(katz_deli)
     if katz_deli.length == 0
       puts "The line is currently empty."
     elsif katz_deli.length == other_deli.length
-      puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
+      puts "The line is currently: #{other_deli.length}. #{other_deli}".join
     elsif other_deli = another_deli
-      puts "The line is currently: 1. Amanda 2. Annette 3. Ruchi 4. Jason 5. Logan 6. Spencer 7. Avi 8. Joe 9. Rachel 10. Lindsey"
+      puts "The line is currently: #{other_deli.length}. #{other_deli}".join
     end
 end
 
