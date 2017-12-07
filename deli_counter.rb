@@ -11,7 +11,7 @@ def line(katz_deli)
       puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
     elsif other_deli == another_deli
       puts "The line is currently: #{another_deli.count}. #{another_deli}.join"
-      
+
 end
 end
 
