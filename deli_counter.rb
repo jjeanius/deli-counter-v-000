@@ -5,11 +5,11 @@ deli_counter =[
   ]
 
 def line(katz_deli)
-  if katz_deli.length == other_deli.join
-    puts "The line is currently: #{katz_deli.length} #{katz_deli}."
-
     if katz_deli.length == 0
       puts "The line is currently empty."
+    elsif katz_deli.length == other_deli.length
+      puts "The line is currently:#{katz_deli.length}. #{other_deli}".join
+
 end
 end
 end
