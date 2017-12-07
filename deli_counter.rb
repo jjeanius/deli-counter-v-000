@@ -11,7 +11,7 @@ def line(katz_deli)
     puts "The line is currently: #{another_deli.length} #{another_deli}.
 
   end
- katz_deli
+ line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
