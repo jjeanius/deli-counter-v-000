@@ -7,8 +7,8 @@ deli_counter =[
 def line(katz_deli)
     if katz_deli.length == 0
       puts "The line is currently empty."
-    elsif katz_deli == other_deli.index
-      puts "The line is currently: #{other_deli.index}. #{other_deli}"
+    elsif katz_deli == other_deli
+      puts "The line is currently: #{other_deli}.index. #{other_deli.index}.index"
     elsif katz_deli = another_deli.index
       puts "The line is currently: #{katz_deli.length}. #{katz_deli}"
     end
