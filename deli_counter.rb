@@ -1,3 +1,5 @@
+require 'pry'
+
 deli_counter =[
   katz_deli = [],
   other_deli = ["Logan", "Avi", "Spencer"],
@@ -7,10 +9,8 @@ deli_counter =[
 def line(katz_deli)
     if katz_deli.length == 0
       puts "The line is currently empty."
-      elsif katz_deli == other_deli
-        puts "The line is currently: #{katz_deli.length}. #{katz_deli}.index"
-      elsif katz_deli == another_deli
-        puts "The line is currently: #{katz_deli.length}. #{katz_deli}.index"
+    else
+      binding.pry
     end
 end
 
