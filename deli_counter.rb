@@ -8,7 +8,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   elsif katz_deli == another_deli
-    puts "The line is currently: #{another_deli.length} #{another_deli}."
+    puts "The line is currently: #{katz_deli.length} #{another_deli}.".join
     katz_deli
   end
 end
