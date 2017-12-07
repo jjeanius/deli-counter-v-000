@@ -10,7 +10,7 @@ def line(katz_deli)
     elsif katz_deli.length == other_deli.length
       puts "The line is currently: #{katz_deli.length}. #{katz_deli}".join
     elsif other_deli = another_deli
-      puts "The line is currently: #{other_deli.length}. #{other_deli}".join
+      puts "The line is currently: #{katz_deli.length}. #{katz_deli}".join
     end
 end
 
