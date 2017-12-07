@@ -58,6 +58,6 @@ def now_serving(katz_deli)
         puts "There is nobody waiting to be served!"
         elsif katz_deli = other_deli.shift
           puts "Currently serving Logan."
+        end
       end
-    end
-end
+  end
