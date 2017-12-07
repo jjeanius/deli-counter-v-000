@@ -10,7 +10,7 @@ def line(katz_deli)
     elsif katz_deli = other_deli.index
       puts "The line is currently: #{other_deli.length}. #{other_deli}"
     elsif other_deli == another_deli.index
-      puts "The line is currently: #{another_deli.length}. #{another_deli}"
+      puts "The line is currently: #{katz_deli.length}. #{katz_deli}"
     end
 end
 
