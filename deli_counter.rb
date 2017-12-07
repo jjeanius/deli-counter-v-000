@@ -9,7 +9,7 @@ def line(katz_deli)
       puts "The line is currently empty."
     elsif katz_deli.length == other_deli.length
       puts "The line is currently:#{other_deli.length}. #{other_deli}".
-
+end
 end
 end
 
