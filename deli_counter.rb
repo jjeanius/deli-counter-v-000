@@ -9,7 +9,7 @@ def line(katz_deli)
       puts "The line is currently empty."
     elsif katz_deli = other_deli.index
       puts "The line is currently: #{other_deli.length}. #{other_deli}"
-    elsif other_deli == another_deli.index
+    elsif other_deli = another_deli.index
       puts "The line is currently: #{katz_deli.length}. #{katz_deli}"
     end
 end
