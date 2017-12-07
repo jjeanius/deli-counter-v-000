@@ -5,7 +5,7 @@ deli_counter =[
   ]
 
 def line(katz_deli)
-  if katz_deli.length == another_deli.join
+  if katz_deli.length == other_deli.join
     puts "The line is currently: #{katz_deli.length} #{katz_deli}."
 
     if katz_deli.length == 0
